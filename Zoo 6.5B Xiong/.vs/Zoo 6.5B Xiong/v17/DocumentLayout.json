@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29444BDB-9659-4647-B826-A283F88492C5}|Zoos\\Zoos.csproj|c:\\users\\yeng\\onedrive - northcentral technical college\\courses\\oop\\oop c\\zoo c\\zoo 6.5b xiong\\zoos\\zoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29444BDB-9659-4647-B826-A283F88492C5}|Zoos\\Zoos.csproj|solutionrelative:zoos\\zoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29444BDB-9659-4647-B826-A283F88492C5}|Zoos\\Zoos.csproj|C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\zoos\\sorthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29444BDB-9659-4647-B826-A283F88492C5}|Zoos\\Zoos.csproj|solutionrelative:zoos\\sorthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81921456-48AD-4A3F-8AE3-1A8C99E031E9}|ZooConsole\\ZooConsole.csproj|C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\zooconsole\\consolehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81921456-48AD-4A3F-8AE3-1A8C99E031E9}|ZooConsole\\ZooConsole.csproj|solutionrelative:zooconsole\\consolehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29444BDB-9659-4647-B826-A283F88492C5}|Zoos\\Zoos.csproj|C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\zoos\\zooextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29444BDB-9659-4647-B826-A283F88492C5}|Zoos\\Zoos.csproj|solutionrelative:zoos\\zooextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBD661C1-8EDB-47B1-A66F-5B8071282D5D}|Animals\\Animals.csproj|C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\animals\\animals\\eagle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBD661C1-8EDB-47B1-A66F-5B8071282D5D}|Animals\\Animals.csproj|solutionrelative:animals\\animals\\eagle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBD661C1-8EDB-47B1-A66F-5B8071282D5D}|Animals\\Animals.csproj|C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\animals\\abstract animals\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBD661C1-8EDB-47B1-A66F-5B8071282D5D}|Animals\\Animals.csproj|solutionrelative:animals\\abstract animals\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBD661C1-8EDB-47B1-A66F-5B8071282D5D}|Animals\\Animals.csproj|C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\animals\\animals\\dingo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBD661C1-8EDB-47B1-A66F-5B8071282D5D}|Animals\\Animals.csproj|solutionrelative:animals\\animals\\dingo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBD661C1-8EDB-47B1-A66F-5B8071282D5D}|Animals\\Animals.csproj|C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\animals\\eatbehaviors\\buryandeatbonebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBD661C1-8EDB-47B1-A66F-5B8071282D5D}|Animals\\Animals.csproj|solutionrelative:animals\\eatbehaviors\\buryandeatbonebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2F1651-F707-40E0-8C65-AC38DCC00D8F}|People\\People.csproj|C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\people\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2F1651-F707-40E0-8C65-AC38DCC00D8F}|People\\People.csproj|solutionrelative:people\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475C4CD4-604F-419D-B5FD-8A9E31496169}|ZooScenario\\ZooScenario.csproj|C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\zooscenario\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475C4CD4-604F-419D-B5FD-8A9E31496169}|ZooScenario\\ZooScenario.csproj|solutionrelative:zooscenario\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2F1651-F707-40E0-8C65-AC38DCC00D8F}|People\\People.csproj|C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\people\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2F1651-F707-40E0-8C65-AC38DCC00D8F}|People\\People.csproj|solutionrelative:people\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76BFEFE8-0B1E-4D2E-8520-0BDC4EFCED50}|MoneyCollectors\\MoneyCollectors.csproj|C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\moneycollectors\\moneycollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76BFEFE8-0B1E-4D2E-8520-0BDC4EFCED50}|MoneyCollectors\\MoneyCollectors.csproj|solutionrelative:moneycollectors\\moneycollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81921456-48AD-4A3F-8AE3-1A8C99E031E9}|ZooConsole\\ZooConsole.csproj|C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\zooconsole\\consoleutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81921456-48AD-4A3F-8AE3-1A8C99E031E9}|ZooConsole\\ZooConsole.csproj|solutionrelative:zooconsole\\consoleutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2F1651-F707-40E0-8C65-AC38DCC00D8F}|People\\People.csproj|C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\people\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2F1651-F707-40E0-8C65-AC38DCC00D8F}|People\\People.csproj|solutionrelative:people\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76BFEFE8-0B1E-4D2E-8520-0BDC4EFCED50}|MoneyCollectors\\MoneyCollectors.csproj|C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\moneycollectors\\moneypocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76BFEFE8-0B1E-4D2E-8520-0BDC4EFCED50}|MoneyCollectors\\MoneyCollectors.csproj|solutionrelative:moneycollectors\\moneypocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76BFEFE8-0B1E-4D2E-8520-0BDC4EFCED50}|MoneyCollectors\\MoneyCollectors.csproj|C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\moneycollectors\\moneybox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76BFEFE8-0B1E-4D2E-8520-0BDC4EFCED50}|MoneyCollectors\\MoneyCollectors.csproj|solutionrelative:moneycollectors\\moneybox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SortHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\Zoos\\SortHelper.cs",
+              "RelativeDocumentMoniker": "Zoos\\SortHelper.cs",
+              "ToolTip": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\Zoos\\SortHelper.cs",
+              "RelativeToolTip": "Zoos\\SortHelper.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:32:32.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsoleHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\ZooConsole\\ConsoleHelper.cs",
+              "RelativeDocumentMoniker": "ZooConsole\\ConsoleHelper.cs",
+              "ToolTip": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\ZooConsole\\ConsoleHelper.cs",
+              "RelativeToolTip": "ZooConsole\\ConsoleHelper.cs",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAAADYBAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:58:45.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BuryAndEatBoneBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\Animals\\EatBehaviors\\BuryAndEatBoneBehavior.cs",
+              "RelativeDocumentMoniker": "Animals\\EatBehaviors\\BuryAndEatBoneBehavior.cs",
+              "ToolTip": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\Animals\\EatBehaviors\\BuryAndEatBoneBehavior.cs",
+              "RelativeToolTip": "Animals\\EatBehaviors\\BuryAndEatBoneBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:58:45.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dingo.cs",
+              "DocumentMoniker": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\Animals\\Animals\\Dingo.cs",
+              "RelativeDocumentMoniker": "Animals\\Animals\\Dingo.cs",
+              "ToolTip": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\Animals\\Animals\\Dingo.cs",
+              "RelativeToolTip": "Animals\\Animals\\Dingo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:58:45.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\People\\Employee.cs",
+              "RelativeDocumentMoniker": "People\\Employee.cs",
+              "ToolTip": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\People\\Employee.cs",
+              "RelativeToolTip": "People\\Employee.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAADgv3gAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:58:45.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\Animals\\Abstract Animals\\Animal.cs",
+              "RelativeDocumentMoniker": "Animals\\Abstract Animals\\Animal.cs",
+              "ToolTip": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\Animals\\Abstract Animals\\Animal.cs",
+              "RelativeToolTip": "Animals\\Abstract Animals\\Animal.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAYwJEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:58:45.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\ZooScenario\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ZooScenario\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\ZooScenario\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ZooScenario\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAoCAAAAAAAAAAAQwBcCAAAOAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKKSURBVDhPzZJNTxNRGIXPvXc\u002BLp2xX7YW2tG2fFgoERCJxujKpRt/ADEmLlywsf\u002BA8DNY8APcunMnWxM2JNKQSJAIJY60pO2UTO\u002BdudcFH6Jx5coneVfvyTnJeV\u002BCN\u002B8Ty0u3srV08hm3WcO2iWUzsk6F/HD06V1ra2tLFYtF1Go17XkednZ2hmtrawoXMNRfP\u002Bqd6TuUkNkoxtLe9zAzHEqYUXtEh518ynWqtm2PK6WqnPOxSqUiGo2G9DxPbW5uaoZ7L5/YBs25FquYBpk97g6zozdIupKBl01gOuk684Zh3I/jeC6KoruZTEYTQvr1ev1sY2MjYnjwcjidN7tL1ZRbSJoLGvrmnJdIzRbd0duFTDWfy41rrSfa7fbk6enphOM4BUrpSRAE/szMTMDw8G1/eZ7Jas4qZEbo4wXPyc\u002BWEmw0zQ2H26Zt2\u002BZgMDB93zd93\u002BdBEKSFEIJS2iqVSscMW\u002Bv61fNNbrJwPIGzpxNjqXzOtahtEkIpAQAIISClJIwxYlkWhBBH/X7/cxiG\u002BxQgaLcP9I/9pj49\u002BgIjGoCRGAQaAEApRTabxdTUFBYXF0mtViOO47Ber8d2d3cJBYBms4lvX/dwfHgAKUJofXUlUErhOA5KpRImJydRLpeRTCYJYwytVgv0UhjHMZRS0FoD\u002Bjz9uolhGDBNE5ZlgTH2a/eb8h/4zwy01jqKIi2lhBBC/zlSSi2EgFLqqiQDACzL0kopEUVR1/f9dhiGpmEY172Bi4AgCMJut9uPokhwzjUBgJWVFVdKOcc5f1Eulz3OObve9CVxHENKKTqdznan0/mYy\u002BW2CQCsrq4ah4eHScuyCq7rjiilzl/wLwghFIBeIpE44Zz3fwIK2Sf9WPFJ\u002BgAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-10-03T20:58:45.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Guest.cs",
+              "DocumentMoniker": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\People\\Guest.cs",
+              "RelativeDocumentMoniker": "People\\Guest.cs",
+              "ToolTip": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\People\\Guest.cs",
+              "RelativeToolTip": "People\\Guest.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:58:45.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Zoo.cs",
+              "DocumentMoniker": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\Zoos\\Zoo.cs",
+              "RelativeDocumentMoniker": "Zoos\\Zoo.cs",
+              "ToolTip": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\Zoos\\Zoo.cs",
+              "RelativeToolTip": "Zoos\\Zoo.cs",
+              "ViewState": "AgIAAEoBAAAAAAAAAAAAwJ8BAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:58:45.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Wallet.cs",
+              "DocumentMoniker": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\People\\Wallet.cs",
+              "RelativeDocumentMoniker": "People\\Wallet.cs",
+              "ToolTip": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\People\\Wallet.cs",
+              "RelativeToolTip": "People\\Wallet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:58:45.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MoneyCollector.cs",
+              "DocumentMoniker": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\MoneyCollectors\\MoneyCollector.cs",
+              "RelativeDocumentMoniker": "MoneyCollectors\\MoneyCollector.cs",
+              "ToolTip": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\MoneyCollectors\\MoneyCollector.cs",
+              "RelativeToolTip": "MoneyCollectors\\MoneyCollector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:58:45.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MoneyPocket.cs",
+              "DocumentMoniker": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\MoneyCollectors\\MoneyPocket.cs",
+              "RelativeDocumentMoniker": "MoneyCollectors\\MoneyPocket.cs",
+              "ToolTip": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\MoneyCollectors\\MoneyPocket.cs",
+              "RelativeToolTip": "MoneyCollectors\\MoneyPocket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:58:45.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MoneyBox.cs",
+              "DocumentMoniker": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\MoneyCollectors\\MoneyBox.cs",
+              "RelativeDocumentMoniker": "MoneyCollectors\\MoneyBox.cs",
+              "ToolTip": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\MoneyCollectors\\MoneyBox.cs",
+              "RelativeToolTip": "MoneyCollectors\\MoneyBox.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:58:45.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Eagle.cs",
+              "DocumentMoniker": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\Animals\\Animals\\Eagle.cs",
+              "RelativeDocumentMoniker": "Animals\\Animals\\Eagle.cs",
+              "ToolTip": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\Animals\\Animals\\Eagle.cs",
+              "RelativeToolTip": "Animals\\Animals\\Eagle.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:58:45.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ZooExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\Zoos\\ZooExtensions.cs",
+              "RelativeDocumentMoniker": "Zoos\\ZooExtensions.cs",
+              "ToolTip": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\Zoos\\ZooExtensions.cs",
+              "RelativeToolTip": "Zoos\\ZooExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T20:25:29.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ConsoleUtil.cs",
+              "DocumentMoniker": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\ZooConsole\\ConsoleUtil.cs",
+              "RelativeDocumentMoniker": "ZooConsole\\ConsoleUtil.cs",
+              "ToolTip": "C:\\Users\\Yeng\\OneDrive - Northcentral Technical College\\Courses\\OOP\\OOP C\\Zoo C\\Zoo 6.5B Xiong\\ZooConsole\\ConsoleUtil.cs",
+              "RelativeToolTip": "ZooConsole\\ConsoleUtil.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABcBAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:58:45.511Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

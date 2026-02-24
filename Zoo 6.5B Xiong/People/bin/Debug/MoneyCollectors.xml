@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MoneyCollectors</name>
+    </assembly>
+    <members>
+        <member name="T:MoneyCollectors.IMoneyCollector">
+            <summary>
+            The interface which is used to define the role of the moneycollector.
+            </summary>
+        </member>
+        <member name="P:MoneyCollectors.IMoneyCollector.MoneyBalance">
+            <summary>
+            Gets a value of money balance in IMoneyCollectors interface.
+            </summary>
+        </member>
+        <member name="P:MoneyCollectors.IMoneyCollector.OnBalanceChange">
+            <summary>
+            Gets or sets a value of the balance change.
+            </summary>
+        </member>
+        <member name="M:MoneyCollectors.IMoneyCollector.AddMoney(System.Decimal)">
+            <summary>
+            Method to add money in IMoneyCollectors interface.
+            </summary>
+            <param name="amount">Amount of money added in IMoneyCollectors interface.</param>
+        </member>
+        <member name="M:MoneyCollectors.IMoneyCollector.RemoveMoney(System.Decimal)">
+            <summary>
+            Method to remove money in IMoneyCollectors interface.
+            </summary>
+            <param name="amount">Amount of money removed in IMoneyCollectors interface.</param>
+            <returns>amount leftover.</returns>
+        </member>
+        <member name="T:MoneyCollectors.MoneyBox">
+            <summary>
+            The class which is used to represent a moneybox.
+            </summary>
+        </member>
+        <member name="M:MoneyCollectors.MoneyBox.RemoveMoney(System.Decimal)">
+            <summary>
+            Method to remove money in the moneybox.
+            </summary>
+            <param name="amount">Amount of money removed.</param>
+            <returns>The amount removed.</returns>
+        </member>
+        <member name="M:MoneyCollectors.MoneyBox.Lock">
+            <summary>
+            Method to lock moneybox.
+            </summary>
+        </member>
+        <member name="M:MoneyCollectors.MoneyBox.Unlock">
+            <summary>
+            Method to unlock moneybox.
+            </summary>
+        </member>
+        <member name="T:MoneyCollectors.MoneyCollector">
+            <summary>
+            The class which is used to represent a moneycollector.
+            </summary>
+        </member>
+        <member name="F:MoneyCollectors.MoneyCollector.moneyBalance">
+            <summary>
+            The moneycollector's money balance.
+            </summary>
+        </member>
+        <member name="P:MoneyCollectors.MoneyCollector.MoneyBalance">
+            <summary>
+            Gets or sets a value of the money balance.
+            </summary>
+        </member>
+        <member name="P:MoneyCollectors.MoneyCollector.OnBalanceChange">
+            <summary>
+            Gets or sets a value of the balance change in the Money Collector.
+            </summary>
+        </member>
+        <member name="M:MoneyCollectors.MoneyCollector.AddMoney(System.Decimal)">
+            <summary>
+            The ability for the moneycollector to add money.
+            </summary>
+            <param name="amount">Amount of money being added.</param>
+        </member>
+        <member name="M:MoneyCollectors.MoneyCollector.RemoveMoney(System.Decimal)">
+            <summary>
+            The ability for the moneycollector to remove money.
+            </summary>
+            <param name="amount">Amount being removed.</param>
+            <returns>The current moneybalance.</returns>
+        </member>
+        <member name="T:MoneyCollectors.MoneyPocket">
+            <summary>
+            The class which is used to represent moneypocket.
+            </summary>
+        </member>
+        <member name="M:MoneyCollectors.MoneyPocket.RemoveMoney(System.Decimal)">
+            <summary>
+            Method for moneypocket class to remove money.
+            </summary>
+            <param name="amount">Amount of money removed in moneypocket.</param>
+            <returns>Amount of money removed.</returns>
+        </member>
+        <member name="M:MoneyCollectors.MoneyPocket.Fold">
+            <summary>
+            Method to fold in moneypocket.
+            </summary>
+        </member>
+        <member name="M:MoneyCollectors.MoneyPocket.Unfold">
+            <summary>
+            Method to unfold in moneypocket.
+            </summary>
+        </member>
+    </members>
+</doc>

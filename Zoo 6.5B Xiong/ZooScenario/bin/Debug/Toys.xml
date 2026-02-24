@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Toys</name>
+    </assembly>
+    <members>
+        <member name="T:Toys.WuvLuv">
+            <summary>
+            The class which is used to represent a WuvLuv.
+            </summary>
+        </member>
+        <member name="F:Toys.WuvLuv.price">
+            <summary>
+            The price of the WuvLuv.
+            </summary>
+        </member>
+        <member name="F:Toys.WuvLuv.color">
+            <summary>
+            The color of the WuvLuv.
+            </summary>
+        </member>
+        <member name="F:Toys.WuvLuv.isPregnant">
+            <summary>
+            A value indicating whether or not the WuvLuv is in a state in which it can lay an egg.
+            </summary>
+        </member>
+        <member name="M:Toys.WuvLuv.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the WuvLuv class.
+            </summary>
+            <param name="color">The color of the WuvLuv.</param>
+        </member>
+        <member name="P:Toys.WuvLuv.IsPregnant">
+            <summary>
+            Gets a value indicating whether or not the WuvLuv is in a state in which it can lay an egg.
+            </summary>
+        </member>
+        <member name="P:Toys.WuvLuv.Price">
+            <summary>
+            Gets the price of the WuvLuv.
+            </summary>
+        </member>
+        <member name="M:Toys.WuvLuv.Hatch">
+            <summary>
+            Hatches from its egg.
+            </summary>
+        </member>
+        <member name="M:Toys.WuvLuv.MakePregnant">
+            <summary>
+            Puts the WuvLuv is in a state in which it can lay an egg.
+            </summary>
+        </member>
+        <member name="M:Toys.WuvLuv.Reproduce">
+            <summary>
+            Creates another reproducer of its own type.
+            </summary>
+            <returns>The resulting baby reproducer.</returns>
+        </member>
+    </members>
+</doc>

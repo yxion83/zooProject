@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Foods</name>
+    </assembly>
+    <members>
+        <member name="T:Foods.Food">
+            <summary>
+            Class that represents Food.
+            </summary>
+        </member>
+        <member name="F:Foods.Food.weight">
+            <summary>
+            The weight of the food (in pounds).
+            </summary>
+        </member>
+        <member name="M:Foods.Food.#ctor(System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Foods.Food"/> class.
+            </summary>
+            <param name="weight">The weight of the food (in pounds).</param>
+        </member>
+        <member name="P:Foods.Food.Weight">
+            <summary>
+            Gets the weight of the food (in pounds).
+            </summary>
+        </member>
+        <member name="T:Foods.IEater">
+            <summary>
+            The interface IEater.
+            </summary>
+        </member>
+        <member name="P:Foods.IEater.Weight">
+            <summary>
+            Gets or sets the value of weight of the eater.
+            </summary>
+        </member>
+        <member name="P:Foods.IEater.WeightGainPercentage">
+            <summary>
+            Gets the percentage of weight gained for each pound of food eaten.
+            </summary>
+        </member>
+        <member name="M:Foods.IEater.Eat(Foods.Food)">
+            <summary>
+            Eats the specified food.
+            </summary>
+            <param name="food">The food to eat.</param>
+        </member>
+    </members>
+</doc>

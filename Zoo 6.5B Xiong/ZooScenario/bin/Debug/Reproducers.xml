@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Reproducers</name>
+    </assembly>
+    <members>
+        <member name="T:Reproducers.Gender">
+            <summary>
+            List of genders.
+            </summary>
+        </member>
+        <member name="T:Reproducers.IReproducer">
+            <summary>
+            The interface which is used to define the role of a reproducer.
+            </summary>
+        </member>
+        <member name="P:Reproducers.IReproducer.IsPregnant">
+            <summary>
+            Gets a value indicating whether or not the reproducer is pregnant.
+            </summary>
+        </member>
+        <member name="M:Reproducers.IReproducer.MakePregnant">
+            <summary>
+            Makes the reproducer pregnant.
+            </summary>
+        </member>
+        <member name="M:Reproducers.IReproducer.Reproduce">
+            <summary>
+            Creates another reproducer of its own type.
+            </summary>
+            <returns>The resulting baby reproducer.</returns>
+        </member>
+    </members>
+</doc>

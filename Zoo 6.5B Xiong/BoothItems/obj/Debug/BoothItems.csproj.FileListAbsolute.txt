@@ -1,0 +1,14 @@
+C:\Users\yeejx\OneDrive - Northcentral Technical College\Courses\OOP\OOP C\Zoo C\Zoo 6.5B Xiong\BoothItems\bin\Debug\BoothItems.xml
+C:\Users\yeejx\OneDrive - Northcentral Technical College\Courses\OOP\OOP C\Zoo C\Zoo 6.5B Xiong\BoothItems\bin\Debug\BoothItems.dll
+C:\Users\yeejx\OneDrive - Northcentral Technical College\Courses\OOP\OOP C\Zoo C\Zoo 6.5B Xiong\BoothItems\bin\Debug\BoothItems.pdb
+C:\Users\yeejx\OneDrive - Northcentral Technical College\Courses\OOP\OOP C\Zoo C\Zoo 6.5B Xiong\BoothItems\obj\Debug\BoothItems.csproj.AssemblyReference.cache
+C:\Users\yeejx\OneDrive - Northcentral Technical College\Courses\OOP\OOP C\Zoo C\Zoo 6.5B Xiong\BoothItems\obj\Debug\BoothItems.csproj.CoreCompileInputs.cache
+C:\Users\yeejx\OneDrive - Northcentral Technical College\Courses\OOP\OOP C\Zoo C\Zoo 6.5B Xiong\BoothItems\obj\Debug\BoothItems.dll
+C:\Users\yeejx\OneDrive - Northcentral Technical College\Courses\OOP\OOP C\Zoo C\Zoo 6.5B Xiong\BoothItems\obj\Debug\BoothItems.pdb
+C:\Users\Yeng\OneDrive - Northcentral Technical College\Courses\OOP\OOP C\Zoo C\Zoo 6.5B Xiong\BoothItems\bin\Debug\BoothItems.xml
+C:\Users\Yeng\OneDrive - Northcentral Technical College\Courses\OOP\OOP C\Zoo C\Zoo 6.5B Xiong\BoothItems\bin\Debug\BoothItems.dll
+C:\Users\Yeng\OneDrive - Northcentral Technical College\Courses\OOP\OOP C\Zoo C\Zoo 6.5B Xiong\BoothItems\bin\Debug\BoothItems.pdb
+C:\Users\Yeng\OneDrive - Northcentral Technical College\Courses\OOP\OOP C\Zoo C\Zoo 6.5B Xiong\BoothItems\obj\Debug\BoothItems.csproj.AssemblyReference.cache
+C:\Users\Yeng\OneDrive - Northcentral Technical College\Courses\OOP\OOP C\Zoo C\Zoo 6.5B Xiong\BoothItems\obj\Debug\BoothItems.csproj.CoreCompileInputs.cache
+C:\Users\Yeng\OneDrive - Northcentral Technical College\Courses\OOP\OOP C\Zoo C\Zoo 6.5B Xiong\BoothItems\obj\Debug\BoothItems.dll
+C:\Users\Yeng\OneDrive - Northcentral Technical College\Courses\OOP\OOP C\Zoo C\Zoo 6.5B Xiong\BoothItems\obj\Debug\BoothItems.pdb

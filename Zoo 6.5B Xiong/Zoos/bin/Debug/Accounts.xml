@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Accounts</name>
+    </assembly>
+    <members>
+        <member name="T:Accounts.Account">
+            <summary>
+            The class which is used to represent an Account.
+            </summary>
+        </member>
+        <member name="F:Accounts.Account.moneyBalance">
+            <summary>
+            The money balance of the account.
+            </summary>
+        </member>
+        <member name="P:Accounts.Account.MoneyBalance">
+            <summary>
+            Gets or sets a value of this accounts moneybalance.
+            </summary>
+        </member>
+        <member name="P:Accounts.Account.OnBalanceChange">
+            <summary>
+            Gets or sets a value of the balance change in the Account.
+            </summary>
+        </member>
+        <member name="M:Accounts.Account.AddMoney(System.Decimal)">
+            <summary>
+            Method for accounts to add money.
+            </summary>
+            <param name="amount">Amount of money added.</param>
+        </member>
+        <member name="M:Accounts.Account.RemoveMoney(System.Decimal)">
+            <summary>
+            Method for accounts to remove money.
+            </summary>
+            <param name="amount">Amount of money removed.</param>
+            <returns>Amount removed.</returns>
+        </member>
+    </members>
+</doc>

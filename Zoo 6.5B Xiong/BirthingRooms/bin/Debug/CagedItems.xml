@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CagedItems</name>
+    </assembly>
+    <members>
+        <member name="T:CagedItems.HungerState">
+            <summary>
+            A list of the hunger status.
+            </summary>
+        </member>
+        <member name="T:CagedItems.ICageable">
+            <summary>
+            The interface which is used to make changes to the cages.
+            </summary>
+        </member>
+        <member name="P:CagedItems.ICageable.DisplaySize">
+            <summary>
+            Gets a value of the cage display size.
+            </summary>
+        </member>
+        <member name="P:CagedItems.ICageable.ResourceKey">
+            <summary>
+            Gets a value of the resource key.
+            </summary>
+        </member>
+        <member name="P:CagedItems.ICageable.XPosition">
+            <summary>
+            Gets a value of the xposition.
+            </summary>
+        </member>
+        <member name="P:CagedItems.ICageable.YPosition">
+            <summary>
+            Gets a  value of the yposiiton.
+            </summary>
+        </member>
+        <member name="P:CagedItems.ICageable.IsActive">
+            <summary>
+            Gets a value indicating whether the status is active.
+            </summary>
+        </member>
+        <member name="P:CagedItems.ICageable.XDirection">
+            <summary>
+            Gets a value of the horizontal direction.
+            </summary>
+        </member>
+        <member name="P:CagedItems.ICageable.YDirection">
+            <summary>
+            Gets a vlue of the vertical direction.
+            </summary>
+        </member>
+        <member name="P:CagedItems.ICageable.HungerState">
+            <summary>
+            Gets a value of the hunger status.
+            </summary>
+        </member>
+        <member name="P:CagedItems.ICageable.OnImageUpdate">
+            <summary>
+            Gets or sets a image update in the cage.
+            </summary>
+        </member>
+    </members>
+</doc>

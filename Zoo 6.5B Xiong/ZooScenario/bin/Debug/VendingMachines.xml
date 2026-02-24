@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VendingMachines</name>
+    </assembly>
+    <members>
+        <member name="T:VendingMachines.VendingMachine">
+            <summary>
+            The class which is used to represent a vending machine.
+            </summary>
+        </member>
+        <member name="F:VendingMachines.VendingMachine.bagSize">
+            <summary>
+            The size of a bag of food used to refill the vending machine.
+            </summary>
+        </member>
+        <member name="F:VendingMachines.VendingMachine.maxFoodStock">
+            <summary>
+            The amount of food that the vending machine can hold (in pounds).
+            </summary>
+        </member>
+        <member name="F:VendingMachines.VendingMachine.moneyBox">
+            <summary>
+            Vending machines moneyBox.
+            </summary>
+        </member>
+        <member name="F:VendingMachines.VendingMachine.foodPricePerPound">
+            <summary>
+            The price of food (per pound).
+            </summary>
+        </member>
+        <member name="F:VendingMachines.VendingMachine.foodStock">
+            <summary>
+            The amount of food currently in stock (in pounds).
+            </summary>
+        </member>
+        <member name="M:VendingMachines.VendingMachine.#ctor(System.Decimal,MoneyCollectors.IMoneyCollector)">
+            <summary>
+            Initializes a new instance of the VendingMachine class.
+            </summary>
+            <param name="foodPrice">The price of food (per pound).</param>
+            <param name="moneyBox">The vending machines moneybox.</param>
+        </member>
+        <member name="P:VendingMachines.VendingMachine.MoneyBalance">
+            <summary>
+            Gets a value of the vending machines money balance.
+            </summary>
+        </member>
+        <member name="M:VendingMachines.VendingMachine.AddMoney(System.Decimal)">
+            <summary>
+            The vending machines method to add money.
+            </summary>
+            <param name="amount">Amount added.</param>
+        </member>
+        <member name="M:VendingMachines.VendingMachine.RemoveMoney(System.Decimal)">
+            <summary>
+            The vending machines methods to remove money.
+            </summary>
+            <param name="amount">Amount removed.</param>
+            <returns>The amount of money removed.</returns>
+        </member>
+        <member name="M:VendingMachines.VendingMachine.BuyFood(System.Decimal)">
+            <summary>
+            Buys food from the vending machine.
+            </summary>
+            <param name="payment">The payment for the food.</param>
+            <returns>The purchased food.</returns>
+        </member>
+        <member name="M:VendingMachines.VendingMachine.DetermineFoodPrice(System.Double)">
+            <summary>
+            Determines the price of food for an animal of a specified weight.
+            </summary>
+            <param name="animalWeight">The weight of the animal for which to determine food price.</param>
+            <returns>The price for the amount of food required to sufficiently feed an animal of the specified weight.</returns>
+        </member>
+        <member name="M:VendingMachines.VendingMachine.AddFoodBag">
+            <summary>
+            Add a bag of food to the vending machine.
+            </summary>
+        </member>
+        <member name="M:VendingMachines.VendingMachine.IsFull">
+            <summary>
+            Returns a value indicating whether or not the vending machine is full.
+            </summary>
+            <returns>A value indicating whether or not the vending machine is full.</returns>
+        </member>
+    </members>
+</doc>

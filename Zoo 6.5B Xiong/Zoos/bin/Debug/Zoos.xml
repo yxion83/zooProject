@@ -1,0 +1,527 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Zoos</name>
+    </assembly>
+    <members>
+        <member name="T:Zoos.Cage">
+            <summary>
+            The class which is used to represent a cage.
+            </summary>
+        </member>
+        <member name="F:Zoos.Cage.cagedItems">
+            <summary>
+            Animals in the cage.
+            </summary>
+        </member>
+        <member name="F:Zoos.Cage.onImageUpdate">
+            <summary>
+            Image update for the cage class.
+            </summary>
+        </member>
+        <member name="M:Zoos.Cage.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the cage class.
+            </summary>
+            <param name="height">Cage height.</param>
+            <param name="width">Cage width.</param>
+            <param name="animalType">Type of animal in the cage.</param>
+        </member>
+        <member name="P:Zoos.Cage.Height">
+            <summary>
+            Gets a value of the cage height.
+            </summary>
+        </member>
+        <member name="P:Zoos.Cage.Width">
+            <summary>
+            Gets a value of the cage width.
+            </summary>
+        </member>
+        <member name="P:Zoos.Cage.CagedItems">
+            <summary>
+            Gets a value of the animal list.
+            </summary>
+        </member>
+        <member name="P:Zoos.Cage.OnImageUpdate">
+            <summary>
+            Gets or sets a value of the image update in the cage.
+            </summary>
+        </member>
+        <member name="M:Zoos.Cage.Add(CagedItems.ICageable)">
+            <summary>
+            Adds animals to the cage.
+            </summary>
+            <param name="cagedItem">cagedItem added to cage.</param>
+        </member>
+        <member name="M:Zoos.Cage.Remove(CagedItems.ICageable)">
+            <summary>
+            Removes animals from the cage.
+            </summary>
+            <param name="cagedItem">cagedItem removed from the cage.</param>
+        </member>
+        <member name="M:Zoos.Cage.ToString">
+            <summary>
+            Shows the cage's information.
+            </summary>
+            <returns>string.</returns>
+        </member>
+        <member name="M:Zoos.Cage.HandleImageUpdate(CagedItems.ICageable)">
+            <summary>
+            Method to handle the image update in the cage.
+            </summary>
+            <param name="item">Item being referred to.</param>
+        </member>
+        <member name="T:Zoos.SortHelper">
+            <summary>
+            Class used to represent the sort helper.
+            </summary>
+        </member>
+        <member name="M:Zoos.SortHelper.BubbleSort(System.Collections.IList,System.Func{System.Object,System.Object,System.Int32})">
+            <summary>
+            Method to sort by bubble.
+            </summary>
+            <param name="list">List of animals being sorted.</param>
+            <param name="comparer">comparer delegate.</param>
+            <returns>Sorting of animal list by bubble weight.</returns>
+        </member>
+        <member name="M:Zoos.SortHelper.SelectionSort(System.Collections.IList,System.Func{System.Object,System.Object,System.Int32})">
+            <summary>
+            Method to select sorting by weight.
+            </summary>
+            <param name="list">List of objects being sorted by selection of weight.</param>
+            <param name="comparer">comparer delegate.</param>
+            <returns>Sorted animals lsit by weight selection.</returns>
+        </member>
+        <member name="M:Zoos.SortHelper.InsertionSort(System.Collections.IList,System.Func{System.Object,System.Object,System.Int32})">
+            <summary>
+            Method to sort insertions by weight.
+            </summary>
+            <param name="list">Animal list for sorting by insertion of weight.</param>
+            <param name="comparer">comparer delegate.</param>
+            <returns>List of animals sorted by insertion.</returns>
+        </member>
+        <member name="M:Zoos.SortHelper.QuickSort(System.Collections.IList,System.Int32,System.Int32,Zoos.SortResult,System.Func{System.Object,System.Object,System.Int32})">
+            <summary>
+            Method to sort quickly by weight.
+            </summary>
+            <param name="list">Animal list.</param>
+            <param name="leftIndex">Left index.</param>
+            <param name="rightIndex">Right index.</param>
+            <param name="sortResult">The sort result.</param>
+            <param name="comparer">comparer delegate.</param>
+            <returns>List sorted by weight.</returns>
+        </member>
+        <member name="M:Zoos.SortHelper.Swap(System.Collections.IList,System.Int32,System.Int32)">
+            <summary>
+            Method to swap.
+            </summary>
+            <param name="list">Animal being swaped.</param>
+            <param name="index1">Current animal.</param>
+            <param name="index2">Value of second animal.</param>
+        </member>
+        <member name="T:Zoos.SortResult">
+            <summary>
+            Represents the class to sort resutls.
+            </summary>
+        </member>
+        <member name="P:Zoos.SortResult.Objects">
+            <summary>
+            Gets or sets a list of the animals.
+            </summary>
+        </member>
+        <member name="P:Zoos.SortResult.CompareCount">
+            <summary>
+            Gets or sets a value of the comparison count.
+            </summary>
+        </member>
+        <member name="P:Zoos.SortResult.ElapsedMilliseconds">
+            <summary>
+            Gets or sets a value of the elasped milli seconds.
+            </summary>
+        </member>
+        <member name="P:Zoos.SortResult.SwapCount">
+            <summary>
+            Gets or sets the swap count.
+            </summary>
+        </member>
+        <member name="T:Zoos.Zoo">
+            <summary>
+            The class which is used to represent a zoo.
+            </summary>
+        </member>
+        <member name="F:Zoos.Zoo.animals">
+            <summary>
+            A list of all animals currently residing within the zoo.
+            </summary>
+        </member>
+        <member name="F:Zoos.Zoo.cages">
+            <summary>
+            The zoos list of cages.
+            </summary>
+        </member>
+        <member name="F:Zoos.Zoo.animalSnackMachine">
+            <summary>
+            The zoo's vending machine which allows guests to buy snacks for animals.
+            </summary>
+        </member>
+        <member name="F:Zoos.Zoo.b168">
+            <summary>
+            The zoo's room for birthing animals.
+            </summary>
+        </member>
+        <member name="F:Zoos.Zoo.capacity">
+            <summary>
+            The maximum number of guests the zoo can accommodate at a given time.
+            </summary>
+        </member>
+        <member name="F:Zoos.Zoo.guests">
+            <summary>
+            A list of all guests currently visiting the zoo.
+            </summary>
+        </member>
+        <member name="F:Zoos.Zoo.informationBooth">
+            <summary>
+            The zoo's information booth.
+            </summary>
+        </member>
+        <member name="F:Zoos.Zoo.ticketBooth">
+            <summary>
+            The zoo's ticket booth.
+            </summary>
+        </member>
+        <member name="F:Zoos.Zoo.ladiesRoom">
+            <summary>
+            The zoo's ladies' restroom.
+            </summary>
+        </member>
+        <member name="F:Zoos.Zoo.mensRoom">
+            <summary>
+            The zoo's men's restroom.
+            </summary>
+        </member>
+        <member name="F:Zoos.Zoo.name">
+            <summary>
+            The name of the zoo.
+            </summary>
+        </member>
+        <member name="F:Zoos.Zoo.onBirthingRoomTemperatureChange">
+            <summary>
+            Zoos  delegate for birthing room temperature change.
+            </summary>
+        </member>
+        <member name="F:Zoos.Zoo.onAddGuest">
+            <summary>
+            Zoo delegate for adding on guest.
+            </summary>
+        </member>
+        <member name="F:Zoos.Zoo.onRemoveGuest">
+            <summary>
+            Zoo delegate for removing guest.
+            </summary>
+        </member>
+        <member name="F:Zoos.Zoo.onAddAnimal">
+            <summary>
+            Zoo Delegate for adding animal.
+            </summary>
+        </member>
+        <member name="F:Zoos.Zoo.onRemoveAnimal">
+            <summary>
+            Zoo Delegate for removing animals.
+            </summary>
+        </member>
+        <member name="M:Zoos.Zoo.#ctor(System.String,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,People.Employee,People.Employee)">
+            <summary>
+            Initializes a new instance of the Zoo class.
+            </summary>
+            <param name="name">The name of the zoo.</param>
+            <param name="capacity">The maximum number of guests the zoo can accommodate at a given time.</param>
+            <param name="restroomCapacity">The capacity of the zoo's restrooms.</param>
+            <param name="animalFoodPrice">The price of a pound of food from the zoo's animal snack machine.</param>
+            <param name="ticketPrice">The price of an admission ticket to the zoo.</param>
+            <param name="boothMoneyBalance">The initial money balance of the zoo's ticket booth.</param>
+            <param name="attendant">The zoo's ticket booth attendant.</param>
+            <param name="vet">The zoo's birthing room vet.</param>
+            <param name="waterBottlePrice">The price of the water bottle.</param>
+        </member>
+        <member name="P:Zoos.Zoo.OnRemoveAnimal">
+            <summary>
+            Gets or sets a value of the delegate to remove animals.
+            </summary>
+        </member>
+        <member name="P:Zoos.Zoo.OnAddAnimal">
+            <summary>
+            Gets or sets a value of the delegate to add animals.
+            </summary>
+        </member>
+        <member name="P:Zoos.Zoo.OnAddGuest">
+            <summary>
+            Gets or sets a value of the being added on.
+            </summary>
+        </member>
+        <member name="P:Zoos.Zoo.OnRemoveGuest">
+            <summary>
+            Gets or sets a value of the guest being removed.
+            </summary>
+        </member>
+        <member name="P:Zoos.Zoo.OnBirthingRoomTemperatureChange">
+            <summary>
+            Gets or sets a value of the zoos birthing room temperature change.
+            </summary>
+        </member>
+        <member name="P:Zoos.Zoo.Animals">
+            <summary>
+            Gets a value of the animal list to the animalslistbox.
+            </summary>
+        </member>
+        <member name="P:Zoos.Zoo.Guests">
+            <summary>
+            Gets a value of the guest list to the guestlistbox.
+            </summary>
+        </member>
+        <member name="P:Zoos.Zoo.AverageAnimalWeight">
+            <summary>
+            Gets the average weight of all animals in the zoo.
+            </summary>
+        </member>
+        <member name="P:Zoos.Zoo.BirthingRoomTemperature">
+            <summary>
+            Gets or sets the temperature of the zoo's birthing room.
+            </summary>
+        </member>
+        <member name="P:Zoos.Zoo.TotalAnimalWeight">
+            <summary>
+            Gets the total weight of all animals in the zoo.
+            </summary>
+        </member>
+        <member name="M:Zoos.Zoo.LoadFromFile(System.String)">
+            <summary>
+            Method to load zoo from file.
+            </summary>
+            <param name="fileName">Zoo file name.</param>
+            <returns>Zoo filed saved.</returns>
+        </member>
+        <member name="M:Zoos.Zoo.NewZoo">
+            <summary>
+            Creates a new zoo.
+            </summary>
+            <returns>Zoo created.</returns>
+        </member>
+        <member name="M:Zoos.Zoo.SortObjects(System.String,System.String,System.Collections.IList)">
+            <summary>
+            Methods to sort objects in zoo.
+            </summary>
+            <param name="sortType">The sort type.</param>
+            <param name="sortValue">The sort values.</param>
+            <param name="list">List.</param>
+            <returns>Sorting result.</returns>
+        </member>
+        <member name="M:Zoos.Zoo.SortAnimals(System.String,System.String)">
+            <summary>
+            Method to sort animals.
+            </summary>
+            <param name="sortType">The sort type.</param>
+            <param name="sortValue">The sort value.</param>
+            <returns>Sorted animal list.</returns>
+        </member>
+        <member name="M:Zoos.Zoo.SortGuests(System.String,System.String)">
+            <summary>
+            Method to sort guest.
+            </summary>
+            <param name="sortType">The sort type.</param>
+            <param name="sortValue">The sort value.</param>
+            <returns>Sorted guest list.</returns>
+        </member>
+        <member name="M:Zoos.Zoo.FindCage(System.Type)">
+            <summary>
+            Method to find the zoo's cages.
+            </summary>
+            <param name="animalType">Type of animal.</param>
+            <returns>Cage of animal requested.</returns>
+        </member>
+        <member name="M:Zoos.Zoo.GetAnimals(System.Type)">
+            <summary>
+            Method to get an animal type.
+            </summary>
+            <param name="type">Animal type.</param>
+            <returns>List of animal types in zoo.</returns>
+        </member>
+        <member name="M:Zoos.Zoo.AddAnimal(Animals.Animal)">
+            <summary>
+            Adds an animal to the zoo.
+            </summary>
+            <param name="animal">The animal to add.</param>
+        </member>
+        <member name="M:Zoos.Zoo.RemoveAnimal(Animals.Animal)">
+            <summary>
+            Removes an animal from the zoo.
+            </summary>
+            <param name="animal">Animal removed.</param>
+        </member>
+        <member name="M:Zoos.Zoo.BirthAnimal">
+            <summary>
+            Aids a reproducer in giving birth.
+            </summary>
+            <param name="reproducer">The reproducer that is to give birth.</param>
+        </member>
+        <member name="M:Zoos.Zoo.AddGuest(People.Guest,BoothItems.Ticket)">
+            <summary>
+            Adds a guest to the zoo.
+            </summary>
+            <param name="guest">The guest to add.</param>
+            <param name="ticket">The guest's ticket to add.</param>
+        </member>
+        <member name="M:Zoos.Zoo.RemoveGuest(People.Guest)">
+            <summary>
+            Removes a guest from the zoo.
+            </summary>
+            <param name="guest">Guest being removed.</param>
+        </member>
+        <member name="M:Zoos.Zoo.SellTicket(People.Guest)">
+            <summary>
+            Sells tickets to guest.
+            </summary>
+            <param name="guest">The guest buying the ticket.</param>
+            <returns>Ticket.</returns>
+        </member>
+        <member name="M:Zoos.Zoo.SaveToFile(System.String)">
+            <summary>
+            Method to save zoo file.
+            </summary>
+            <param name="fileName">File Name of zoo saved.</param>
+        </member>
+        <member name="M:Zoos.Zoo.OnDeserialized">
+            <summary>
+            Method to deserialize.
+            </summary>
+        </member>
+        <member name="M:Zoos.Zoo.AnimalNameSortComparer(System.Object,System.Object)">
+            <summary>
+            Method to compare sorting by animal name.
+            </summary>
+            <param name="object1">First animal.</param>
+            <param name="object2">Second animal.</param>
+            <returns>Integar.</returns>
+        </member>
+        <member name="M:Zoos.Zoo.GuestNameSortComparer(System.Object,System.Object)">
+            <summary>
+            Method to compare sorting by guest name.
+            </summary>
+            <param name="object1">First guest.</param>
+            <param name="object2">Second guest.</param>
+            <returns>Integar.</returns>
+        </member>
+        <member name="M:Zoos.Zoo.MoneyBalanceSortComparer(System.Object,System.Object)">
+            <summary>
+            Method to compare sort guest's money balance.
+            </summary>
+            <param name="object1">First guest's money balance.</param>
+            <param name="object2">Seond guest's money balance.</param>
+            <returns>Integar.</returns>
+        </member>
+        <member name="M:Zoos.Zoo.WeightSortComparer(System.Object,System.Object)">
+            <summary>
+            Method to compare sorting by weight.
+            </summary>
+            <param name="object1">First animal.</param>
+            <param name="object2">Second animal.</param>
+            <returns>Integar.</returns>
+        </member>
+        <member name="M:Zoos.Zoo.AgeSortComparer(System.Object,System.Object)">
+            <summary>
+            Method to compare sorting by age.
+            </summary>
+            <param name="object1">First animal.</param>
+            <param name="object2">Second animal.</param>
+            <returns>Integar.</returns>
+        </member>
+        <member name="M:Zoos.Zoo.AddAnimalsToZoo(System.Collections.Generic.IEnumerable{Animals.Animal})">
+            <summary>
+            Method to add multiple animals to the zoo.
+            </summary>
+            <param name="animals">Animals being added to the zoo.</param>
+        </member>
+        <member name="M:Zoos.Zoo.ProvideVendingMachine">
+            <summary>
+            Method to provide a vending machine.
+            </summary>
+            <returns>A vending machine.</returns>
+        </member>
+        <member name="T:Zoos.ZooExtensions">
+            <summary>
+            Class that represents the extensions for the zoo.
+            </summary>
+        </member>
+        <member name="M:Zoos.ZooExtensions.FindAnimal(Zoos.Zoo,System.Predicate{Animals.Animal})">
+            <summary>
+            Finds an animal based on name.
+            </summary>
+            <param name="zoo">Zoo being referred to.</param>
+            <param name="match">The name of the animal to find.</param>
+            <returns>The first matching animal.</returns>
+        </member>
+        <member name="M:Zoos.ZooExtensions.FindGuest(Zoos.Zoo,System.Predicate{People.Guest})">
+            <summary>
+            Finds a guest based on name.
+            </summary>
+            <param name="zoo">Zoo being referred to.</param>
+            <param name="match">The name of the guest to find.</param>
+            <returns>The first matching guest.</returns>
+        </member>
+        <member name="M:Zoos.ZooExtensions.GetAdoptedAnimals(Zoos.Zoo)">
+            <summary>
+            Method to get a list of adopted animals.
+            </summary>
+            <param name="zoo">Zoo being referred to.</param>
+            <returns>List of adopted animals.</returns>
+        </member>
+        <member name="M:Zoos.ZooExtensions.GetAverageWeightByAnimalType(Zoos.Zoo)">
+            <summary>
+            Method to get the average weight by animal type.
+            </summary>
+            <param name="zoo">Zoo being referred to.</param>
+            <returns>Average weight based on animal type.</returns>
+        </member>
+        <member name="M:Zoos.ZooExtensions.GetFemaleDingos(Zoos.Zoo)">
+            <summary>
+            Method to get female dingos in the zoo.
+            </summary>
+            <param name="zoo">Zoo being referred to.</param>
+            <returns>Female dingos.</returns>
+        </member>
+        <member name="M:Zoos.ZooExtensions.GetFlyingAnimals(Zoos.Zoo)">
+            <summary>
+            Method to get flying animals in the zoo.
+            </summary>
+            <param name="zoo">Zoo being referred to.</param>
+            <returns>List of flying animals.</returns>
+        </member>
+        <member name="M:Zoos.ZooExtensions.GetGuestsByAge(Zoos.Zoo)">
+            <summary>
+            Method to get guest by age.
+            </summary>
+            <param name="zoo">Zoo being referred to.</param>
+            <returns>List of guest by age.</returns>
+        </member>
+        <member name="M:Zoos.ZooExtensions.GetHeavyAnimals(Zoos.Zoo)">
+            <summary>
+            Method to geat heave animals in the zoo.
+            </summary>
+            <param name="zoo">Zoo being referred to.</param>
+            <returns>Heavy animals.</returns>
+        </member>
+        <member name="M:Zoos.ZooExtensions.GetTotalBalanceByWalletColor(Zoos.Zoo)">
+            <summary>
+            Method to get the total balance in the wallet.
+            </summary>
+            <param name="zoo">Zoo being referred to.</param>
+            <returns>Total balance by wallet.</returns>
+        </member>
+        <member name="M:Zoos.ZooExtensions.GetYoungGuests(Zoos.Zoo)">
+            <summary>
+            Method to get younger guest in the zoo.
+            </summary>
+            <param name="zoo">Zoo being referred to.</param>
+            <returns>The younger guest.</returns>
+        </member>
+    </members>
+</doc>

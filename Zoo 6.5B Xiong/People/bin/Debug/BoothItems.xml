@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BoothItems</name>
+    </assembly>
+    <members>
+        <member name="T:BoothItems.CouponBook">
+            <summary>
+            The class which is used to represent a CouponBook.
+            </summary>
+        </member>
+        <member name="F:BoothItems.CouponBook.dateMade">
+            <summary>
+            The date the couponbooks were made.
+            </summary>
+        </member>
+        <member name="F:BoothItems.CouponBook.dateExpired">
+            <summary>
+            The date the couponbook expire.
+            </summary>
+        </member>
+        <member name="M:BoothItems.CouponBook.#ctor(System.DateTime,System.DateTime,System.Double)">
+            <summary>
+            Initializes a new instance of the CouponBook class.
+            </summary>
+            <param name="dateMade">Date couponbook was made.</param>
+            <param name="dateExpired">Date couponbook is expired.</param>
+            <param name="weight">Weight of couponbook.</param>
+        </member>
+        <member name="P:BoothItems.CouponBook.DateMade">
+            <summary>
+            Gets a value of date couponbook was made.
+            </summary>
+        </member>
+        <member name="P:BoothItems.CouponBook.DateExpired">
+            <summary>
+            Gets a value of date couponbook is expired.
+            </summary>
+        </member>
+        <member name="T:BoothItems.Item">
+            <summary>
+            The class which is used to represent a item.
+            </summary>
+        </member>
+        <member name="F:BoothItems.Item.weight">
+            <summary>
+            The weight of the item.
+            </summary>
+        </member>
+        <member name="M:BoothItems.Item.#ctor(System.Double)">
+            <summary>
+            Initializes a new instance of the Bird class.
+            </summary>
+            <param name="price">Item's price.</param>
+            <param name="weight">Item's weight.</param>
+        </member>
+        <member name="P:BoothItems.Item.Weight">
+            <summary>
+            Gets a value of this items weight.
+            </summary>
+        </member>
+        <member name="T:BoothItems.Map">
+            <summary>
+            The class which is used to represent a Map.
+            </summary>
+        </member>
+        <member name="F:BoothItems.Map.dateIssued">
+            <summary>
+            Date Map was issued.
+            </summary>
+        </member>
+        <member name="M:BoothItems.Map.#ctor(System.Double,System.DateTime)">
+            <summary>
+            Initializes a new instance of the Map class.
+            </summary>
+            <param name="weight">Weight of the map.</param>
+            <param name="dateIssued">Date this map was issued.</param>
+        </member>
+        <member name="P:BoothItems.Map.DateIssued">
+            <summary>
+            Gets a value of date this map was issued.
+            </summary>
+        </member>
+        <member name="T:BoothItems.MissingItemException">
+            <summary>
+            The class which is used to represent exceptions for items that are missing.
+            </summary>
+        </member>
+        <member name="M:BoothItems.MissingItemException.#ctor(System.String)">
+            <summary>
+            Constructor to show missing items exception.
+            </summary>
+            <param name="message">Description of the exception.</param>
+        </member>
+        <member name="T:BoothItems.SoldItem">
+            <summary>
+            The class which is used to represent a sold items.
+            </summary>
+        </member>
+        <member name="F:BoothItems.SoldItem.price">
+            <summary>
+            The price of the items sold.
+            </summary>
+        </member>
+        <member name="M:BoothItems.SoldItem.#ctor(System.Decimal,System.Double)">
+            <summary>
+            Initializes a new instance of the Solditems class.
+            </summary>
+            <param name="price">Price of items sold.</param>
+            <param name="weight">Weight of items sold.</param>
+        </member>
+        <member name="P:BoothItems.SoldItem.Price">
+            <summary>
+            Gets a value of the price of the items sold.
+            </summary>
+        </member>
+        <member name="T:BoothItems.Ticket">
+            <summary>
+            The class which is used to represent a Ticket.
+            </summary>
+        </member>
+        <member name="F:BoothItems.Ticket.isRedeemed">
+            <summary>
+            Status of if Ticket can be redeemed.
+            </summary>
+        </member>
+        <member name="F:BoothItems.Ticket.serialNumber">
+            <summary>
+            Tickets serial Number.
+            </summary>
+        </member>
+        <member name="M:BoothItems.Ticket.#ctor(System.Decimal,System.Int32,System.Double)">
+            <summary>
+            Initializes a new instance of the Ticket class.
+            </summary>
+            <param name="price">Ticket Price.</param>
+            <param name="serialNumber">Ticket's serial Number.</param>
+            <param name="weight">Ticket weight.</param>
+        </member>
+        <member name="P:BoothItems.Ticket.IsRedeemed">
+            <summary>
+            Gets a value indicating whether this Ticket is redeemable.
+            </summary>
+        </member>
+        <member name="P:BoothItems.Ticket.SerialNumber">
+            <summary>
+            Gets a value of the Ticket's serial number.
+            </summary>
+        </member>
+        <member name="M:BoothItems.Ticket.Redeem">
+            <summary>
+            Method to redeem Ticket.
+            </summary>
+        </member>
+        <member name="T:BoothItems.WaterBottle">
+            <summary>
+            The class which is used to represent a waterbottle.
+            </summary>
+        </member>
+        <member name="F:BoothItems.WaterBottle.serialNumber">
+            <summary>
+            Waterbottle's serial number.
+            </summary>
+        </member>
+        <member name="M:BoothItems.WaterBottle.#ctor(System.Decimal,System.Int32,System.Double)">
+            <summary>
+            Initializes a new instance of the Waterbottle class.
+            </summary>
+            <param name="price">Waterbottle's price.</param>
+            <param name="serialNumber">Waterbottle's serial number.</param>
+            <param name="weight">Waterbottle's weight.</param>
+        </member>
+        <member name="P:BoothItems.WaterBottle.SerialNumber">
+            <summary>
+            Gets a value of this Waterbottle's serial number.
+            </summary>
+        </member>
+    </members>
+</doc>

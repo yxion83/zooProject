@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BirthingRooms</name>
+    </assembly>
+    <members>
+        <member name="T:BirthingRooms.BirthingRoom">
+            <summary>
+            The class which is used to represent a birthing room.
+            </summary>
+        </member>
+        <member name="F:BirthingRooms.BirthingRoom.MaxTemperature">
+            <summary>
+            The maximum allowable temperature of the birthing room.
+            </summary>
+        </member>
+        <member name="F:BirthingRooms.BirthingRoom.MinTemperature">
+            <summary>
+            The minimum allowable temperature of the birthing room.
+            </summary>
+        </member>
+        <member name="F:BirthingRooms.BirthingRoom.initialTemperature">
+            <summary>
+            The initial temperature of the birthing room.
+            </summary>
+        </member>
+        <member name="F:BirthingRooms.BirthingRoom.temperature">
+            <summary>
+            The current temperature of the birthing room.
+            </summary>
+        </member>
+        <member name="F:BirthingRooms.BirthingRoom.vet">
+            <summary>
+            The employee currently assigned to be the vet of the birthing room.
+            </summary>
+        </member>
+        <member name="M:BirthingRooms.BirthingRoom.#ctor(People.Employee)">
+            <summary>
+            Initializes a new instance of the BirthingRoom class.
+            </summary>
+            <param name="vet">The employee to be the birthing room's vet.</param>
+        </member>
+        <member name="P:BirthingRooms.BirthingRoom.OnTemperatureChange">
+            <summary>
+            Gets or sets a value of the temperature change.
+            </summary>
+        </member>
+        <member name="P:BirthingRooms.BirthingRoom.PregnantAnimals">
+            <summary>
+            Gets a value of a queue for pregnant animals.
+            </summary>
+        </member>
+        <member name="P:BirthingRooms.BirthingRoom.Temperature">
+            <summary>
+            Gets or sets the birthing room's temperature.
+            </summary>
+        </member>
+        <member name="M:BirthingRooms.BirthingRoom.BirthAnimal(Reproducers.IReproducer)">
+            <summary>
+            Births a reproducer.
+            </summary>
+            <param name="reproducer">The reproducer that is to give birth.</param>
+            <returns>The resulting baby reproducer.</returns>
+        </member>
+    </members>
+</doc>

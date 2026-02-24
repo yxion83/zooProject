@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Utilities</name>
+    </assembly>
+    <members>
+        <member name="T:Utilities.HorizontalDirection">
+            <summary>
+            List of Horizontal directions.
+            </summary>
+        </member>
+        <member name="T:Utilities.ListUtil">
+            <summary>
+            Class used to represent the ListUtil.
+            </summary>
+        </member>
+        <member name="M:Utilities.ListUtil.Flatten(System.Collections.Generic.IEnumerable{System.String},System.String)">
+            <summary>
+            Method to turn many strings to single string.
+            </summary>
+            <param name="list">List being referred to.</param>
+            <param name="separator">Separator between strings.</param>
+            <returns>Single string value.</returns>
+        </member>
+        <member name="T:Utilities.VerticalDirection">
+            <summary>
+            List of vertical directions.
+            </summary>
+        </member>
+    </members>
+</doc>

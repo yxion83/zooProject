@@ -1,0 +1,480 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ZooScenario</name>
+    </assembly>
+    <members>
+        <member name="T:ZooScenario.AnimalWindow">
+            <summary>
+            Interaction logic for AnimalWindow.xaml.
+            </summary>
+            <summary>
+            AnimalWindow
+            </summary>
+        </member>
+        <member name="F:ZooScenario.AnimalWindow.animal">
+            <summary>
+            The animals in the zoo.
+            </summary>
+        </member>
+        <member name="M:ZooScenario.AnimalWindow.#ctor(Animals.Animal)">
+            <summary>
+            Initializes a new instance of the AnimalWindow class.
+            </summary>
+            <param name="animal">Animal in the zoo.</param>
+        </member>
+        <member name="M:ZooScenario.AnimalWindow.window_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Method to load the Animal Window.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.AnimalWindow.okButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Button to confirm.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.AnimalWindow.nameTextBox_LostFocus(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Updates name value in the text box.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.AnimalWindow.ageTextBox_LostFocus(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Updates age value in the text box.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.AnimalWindow.weightTextBox_LostFocus(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Updates weight value in the text box.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.AnimalWindow.makePregnantButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Button to make the animal pregnant.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.AnimalWindow.genderComboBox_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Button to select the animals gender.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.AnimalWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ZooScenario.App">
+            <summary>
+            Contains interaction logic for App.xaml.
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:ZooScenario.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:ZooScenario.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:ZooScenario.CageWindow">
+            <summary>
+            Interaction logic for CageWindow.xaml.
+            </summary>
+            <summary>
+            CageWindow
+            </summary>
+        </member>
+        <member name="F:ZooScenario.CageWindow.cage">
+            <summary>
+            Animals inside the cage window.
+            </summary>
+        </member>
+        <member name="M:ZooScenario.CageWindow.#ctor(Zoos.Cage)">
+            <summary>
+            Initializes a new instance of the CageWindow class.
+            </summary>
+            <param name="cage">cage in the cage window.</param>
+        </member>
+        <member name="M:ZooScenario.CageWindow.DrawItem(CagedItems.ICageable,System.Int32)">
+            <summary>
+            Draws items in cage window.
+            </summary>
+            <param name="item">Item drawn in the cage.</param>
+            <param name="zIndex">Current Index.</param>
+        </member>
+        <member name="M:ZooScenario.CageWindow.DrawAllItems">
+            <summary>
+            Draws all animals in the zoo to the cage window.
+            </summary>
+        </member>
+        <member name="M:ZooScenario.CageWindow.GetViewBox(System.Double,System.Double,System.Int32,System.Int32,System.String,System.Double)">
+            <summary>
+            Allows user to view the animal.
+            </summary>
+            <param name="maxXPosition">Sets animals max x positon.</param>
+            <param name="maxYPosition">Sets animals max y positon.</param>
+            <param name="xPosition">Sets animals x positon.</param>
+            <param name="yPosition">Sets animals y positon.</param>
+            <param name="resourceKey">ResourceKey of the viewbox.</param>
+            <param name="displayScale">DisplaySize of the viewbox.</param>
+            <returns>Viewbox.</returns>
+        </member>
+        <member name="M:ZooScenario.CageWindow.window_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Loads the event to view the animal in the cage window.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.CageWindow.window_Closed(System.Object,System.EventArgs)">
+            <summary>
+            Method that triggers when window is closed.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.CageWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ZooScenario.GuestWindow">
+            <summary>
+            Interaction logic for GuestWindow.xaml.
+            </summary>
+            <summary>
+            GuestWindow
+            </summary>
+        </member>
+        <member name="F:ZooScenario.GuestWindow.guest">
+            <summary>
+            The Guest in the zoo.
+            </summary>
+        </member>
+        <member name="M:ZooScenario.GuestWindow.#ctor(People.Guest)">
+            <summary>
+            Initializes a new instance of the GuestWindow class.
+            </summary>
+            <param name="guest">Guest from the zoo.</param>
+        </member>
+        <member name="M:ZooScenario.GuestWindow.window_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Method to load the guest Window.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.GuestWindow.okButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Button to confirm.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.GuestWindow.nameTextBox_LostFocus(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Updates name value in text box.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.GuestWindow.ageTextBox_LostFocus(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Updates age value in textbox.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.GuestWindow.genderComboBox_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Selects the guest's gender.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.GuestWindow.walletColorComboBox_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Selects the guest's wallet color.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.GuestWindow.addMoneyButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Adds money to the guest's wallet.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.GuestWindow.subtractMoneyButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Removes money from the guest's wallet.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.GuestWindow.addAccountButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Adds money to guest account.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.GuestWindow.subtractAccountButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Removes money from guest account.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.GuestWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ZooScenario.MainWindow">
+            <summary>
+            Contains interaction logic for MainWindow.xaml.
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="F:ZooScenario.MainWindow.AutoSaveFileName">
+            <summary>
+            Autosaves.
+            </summary>
+        </member>
+        <member name="F:ZooScenario.MainWindow.comoZoo">
+            <summary>
+            Minnesota's Como Zoo.
+            </summary>
+        </member>
+        <member name="M:ZooScenario.MainWindow.#ctor">
+            <summary>
+            Initializes a new instance of the MainWindow class.
+            </summary>
+        </member>
+        <member name="M:ZooScenario.MainWindow.admitGuestButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Created button to admit guest.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.feedAnimalButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Created button to feed animal.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.decreaseTemperatureButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Botton to decrease temperature.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.increaseTemperatureButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Button to increase temperature.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.window_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Loads the zoo.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.addAnimalButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Button to add new animals.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.addGuestButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Button to add a guest to the zoo.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.removeAnimalButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Button to remove animal from zoo.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.removeGuestButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Button to remove guest from zoo.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.guestListBox_MouseDoubleClick(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Edits guest values in list box.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.animalListBox_MouseDoubleClick(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Edits animals values in list box.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.showCageButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Button to show cage window.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.adoptAnimalButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Button to adopt an animal.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.unadoptAnimalButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Button to unadopt an animal.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.changeMoveBehaviorButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Button to change the move behavior of the animal.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.birthAnimalButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Botton to give birth to new animals.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.saveButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Button click to save.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.loadButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Button click to load file.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.SaveZoo(System.String)">
+            <summary>
+            Method to save the zoo as a file.
+            </summary>
+            <param name="fileName">Zoo's file name.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.LoadZoo(System.String)">
+            <summary>
+            Method to load files.
+            </summary>
+            <param name="fileName">Name of the file being loaded.</param>
+            <returns>Success of loaded file.</returns>
+        </member>
+        <member name="M:ZooScenario.MainWindow.ClearWindow">
+            <summary>
+            Method to clear the window.
+            </summary>
+        </member>
+        <member name="M:ZooScenario.MainWindow.SetWindowTitle(System.String)">
+            <summary>
+            Method to set the title of the window.
+            </summary>
+            <param name="fileName">Windows title name.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.restartButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Button to restart.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.window_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Method to autosave zoo when the window closes.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.AttachDelegates">
+            <summary>
+            Method to attach delegates.
+            </summary>
+        </member>
+        <member name="M:ZooScenario.MainWindow.UpdateGuestDisplay(People.Guest)">
+            <summary>
+            Method to update guests being displayed.
+            </summary>
+            <param name="guest">Guest being referred to in update.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.UpdateAnimalDisplay(Animals.Animal)">
+            <summary>
+            Method to update animals being displayed.
+            </summary>
+            <param name="animal">Animal being referred to in update.</param>
+        </member>
+        <member name="M:ZooScenario.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:ZooScenario.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ZooScenario.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ZooScenario.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,820 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Animals</name>
+    </assembly>
+    <members>
+        <member name="T:Animals.Animal">
+            <summary>
+            The class which is used to represent an animal.
+            </summary>
+        </member>
+        <member name="F:Animals.Animal.random">
+            <summary>
+            Randomize animals position.
+            </summary>
+        </member>
+        <member name="F:Animals.Animal.age">
+            <summary>
+            The age of the animal.
+            </summary>
+        </member>
+        <member name="F:Animals.Animal.gender">
+            <summary>
+            The gender of the animal.
+            </summary>
+        </member>
+        <member name="F:Animals.Animal.babyWeightPercentage">
+            <summary>
+            The weight of a newborn baby (as a percentage of the parent's weight).
+            </summary>
+        </member>
+        <member name="F:Animals.Animal.isPregnant">
+            <summary>
+            A value indicating whether or not the animal is pregnant.
+            </summary>
+        </member>
+        <member name="F:Animals.Animal.name">
+            <summary>
+            The name of the animal.
+            </summary>
+        </member>
+        <member name="F:Animals.Animal.weight">
+            <summary>
+            The weight of the animal (in pounds).
+            </summary>
+        </member>
+        <member name="F:Animals.Animal.children">
+            <summary>
+            A list of the zoo's animal's children.
+            </summary>
+        </member>
+        <member name="F:Animals.Animal.moveTimer">
+            <summary>
+            The time the animal moves.
+            </summary>
+        </member>
+        <member name="F:Animals.Animal.hungerTimer">
+            <summary>
+            Time for each hunger status.
+            </summary>
+        </member>
+        <member name="F:Animals.Animal.onTextChange">
+            <summary>
+            Text change of animals.
+            </summary>
+        </member>
+        <member name="M:Animals.Animal.#ctor(System.String,System.Int32,System.Double,Reproducers.Gender)">
+            <summary>
+            Initializes a new instance of the Animal class.
+            </summary>
+            <param name="name">The name of the animal.</param>
+            <param name="age">The age of the animal.</param>
+            <param name="weight">The weight of the animal (in pounds).</param>
+            <param name="gender">The gender of the animal.</param>
+        </member>
+        <member name="P:Animals.Animal.MoveDistance">
+            <summary>
+            Gets or sets a value of animals distance moved.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.XPosition">
+            <summary>
+            Gets or sets a value of the animals horizontal position.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.XPositionMax">
+            <summary>
+            Gets or sets a value of animals max horizontal position allowed.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.YPosition">
+            <summary>
+            Gets or sets a value of the animals vertical position.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.YPositionMax">
+            <summary>
+            Gets or sets a value of the animals max vertical position allowed.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.ReproduceBehavior">
+            <summary>
+            Gets or sets a the reproducing behavior.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.MoveBehavior">
+            <summary>
+            Gets or sets a value of the move behavior of the animal.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.EatBehavior">
+            <summary>
+            Gets or sets the eating behavior of the animal.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.YDirection">
+            <summary>
+            Gets or sets a value of the animals Vertical direction of top or bottom.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.XDirection">
+            <summary>
+            Gets or sets a value of animals horizontal direction of left or right.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.HungerState">
+            <summary>
+            Gets or sets a value of the animals hunger state.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.OnHunger">
+            <summary>
+            Gets or sets action animal will take while hungry.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.OnImageUpdate">
+            <summary>
+            Gets or sets an image update of the animal.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.OnPregnant">
+            <summary>
+            Gets or sets a value to alert zoo animal is pregnant.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.IsActive">
+            <summary>
+            Gets or sets a value indicating whether the active status is true.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.OnTextChange">
+            <summary>
+            Gets or sets a value of the text change of Animals.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.Children">
+            <summary>
+            Gets a value of the list of animal children in the zoo.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.IsPregnant">
+            <summary>
+            Gets or sets a value indicating whether or not the animal is pregnant.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.Name">
+            <summary>
+            Gets or sets the name of the animal.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.Weight">
+            <summary>
+            Gets or sets the animal's weight (in pounds).
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.Age">
+            <summary>
+            Gets or sets a value of age for this animal.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.Gender">
+            <summary>
+            Gets or sets a value of the animals gender.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.DisplaySize">
+            <summary>
+            Gets a value of the animals display size.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.ResourceKey">
+            <summary>
+            Gets a value of the animals resource key.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.WeightGainPercentage">
+            <summary>
+            Gets the percentage of weight gained for each pound of food eaten.
+            </summary>
+        </member>
+        <member name="P:Animals.Animal.BabyWeightPercentage">
+            <summary>
+            Gets or sets the weight of a newborn baby (as a percentage of the parent's weight).
+            </summary>
+        </member>
+        <member name="M:Animals.Animal.ConvertAnimalTypeToType(Animals.AnimalType)">
+            <summary>
+            Method to convert the animalType to a Type.
+            </summary>
+            <param name="animalType">Animal type.</param>
+            <returns>A type.</returns>
+        </member>
+        <member name="M:Animals.Animal.Eat(Foods.Food)">
+            <summary>
+            Eats the specified food.
+            </summary>
+            <param name="food">The food to eat.</param>
+        </member>
+        <member name="M:Animals.Animal.MakePregnant">
+            <summary>
+            Makes the animal pregnant.
+            </summary>
+        </member>
+        <member name="M:Animals.Animal.Move">
+            <summary>
+            Moves about.
+            </summary>
+        </member>
+        <member name="M:Animals.Animal.Reproduce">
+            <summary>
+            Creates another reproducer of its own type.
+            </summary>
+            <returns>The resulting baby reproducer.</returns>
+        </member>
+        <member name="M:Animals.Animal.ToString">
+            <summary>
+            Generates a string representation of the animal.
+            </summary>
+            <returns>A string representation of the animal.</returns>
+        </member>
+        <member name="M:Animals.Animal.AddChild(Animals.Animal)">
+            <summary>
+            Method to add a child to the zoo.
+            </summary>
+            <param name="animal">Animal added to zoo.</param>
+        </member>
+        <member name="M:Animals.Animal.MoveHandler(System.Object,System.Timers.ElapsedEventArgs)">
+            <summary>
+            Sets up the move timer for the animal.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="M:Animals.Animal.CreateTimers">
+            <summary>
+            Method to create timers.
+            </summary>
+        </member>
+        <member name="M:Animals.Animal.OnDeserialized(System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Method to deserialized.
+            </summary>
+            <param name="context">Context.</param>
+        </member>
+        <member name="M:Animals.Animal.HandleHungerStateChange(System.Object,System.Timers.ElapsedEventArgs)">
+            <summary>
+            Method animal will take to handlge hunger state.
+            </summary>
+            <param name="sender">The object that initiated the event.</param>
+            <param name="e">The event arguments for the event.</param>
+        </member>
+        <member name="T:Animals.Bird">
+            <summary>
+            The class which is used to represent a bird.
+            </summary>
+        </member>
+        <member name="M:Animals.Bird.#ctor(System.String,System.Int32,System.Double,Reproducers.Gender)">
+            <summary>
+            Initializes a new instance of the Bird class.
+            </summary>
+            <param name="name">The name of the animal.</param>
+            <param name="age">The age of the animal.</param>
+            <param name="weight">The weight of the animal (in pounds).</param>
+            <param name="gender">The gender of the animal.</param>
+        </member>
+        <member name="P:Animals.Bird.WeightGainPercentage">
+            <summary>
+            Gets the percentage of weight gained for each pound of food eaten.
+            </summary>
+        </member>
+        <member name="M:Animals.Bird.Hatch">
+            <summary>
+            Hatches from its egg.
+            </summary>
+        </member>
+        <member name="T:Animals.Fish">
+            <summary>
+            The class which is used to represent a fish.
+            </summary>
+        </member>
+        <member name="M:Animals.Fish.#ctor(System.String,System.Int32,System.Double,Reproducers.Gender)">
+            <summary>
+            Initializes a new instance of the Fish class.
+            </summary>
+            <param name="name">Name of the fish.</param>
+            <param name="age">Age of the fish.</param>
+            <param name="weight">Weight of the fish.</param>
+            <param name="gender">The gender of the fish.</param>
+        </member>
+        <member name="P:Animals.Fish.WeightGainPercentage">
+            <summary>
+            Gets the percentage of weight gained for each pound of food eaten.
+            </summary>
+        </member>
+        <member name="T:Animals.BuryAndEatBoneBehavior">
+            <summary>
+            The class which is used to represent a burying beahvoir while eating.
+            </summary>
+        </member>
+        <member name="M:Animals.BuryAndEatBoneBehavior.Eat(Foods.IEater,Foods.Food)">
+            <summary>
+            Method to eat.
+            </summary>
+            <param name="eater">Object eating.</param>
+            <param name="food">Food being eaten.</param>
+        </member>
+        <member name="M:Animals.BuryAndEatBoneBehavior.Bark">
+            <summary>
+            Method to bark.
+            </summary>
+        </member>
+        <member name="M:Animals.BuryAndEatBoneBehavior.BuryBone(Foods.Food)">
+            <summary>
+            Method to bury bones.
+            </summary>
+            <param name="bone">Food being buried.</param>
+        </member>
+        <member name="M:Animals.BuryAndEatBoneBehavior.DigUpAndEatBone">
+            <summary>
+            Method to dig up and eat bones.
+            </summary>
+        </member>
+        <member name="T:Animals.ConsumeBehavior">
+            <summary>
+            The class which is used to represent consuming behavior.
+            </summary>
+        </member>
+        <member name="M:Animals.ConsumeBehavior.Eat(Foods.IEater,Foods.Food)">
+            <summary>
+            Method to eat.
+            </summary>
+            <param name="eater">Object eating.</param>
+            <param name="food">Food being eaten.</param>
+        </member>
+        <member name="T:Animals.IEatBehavior">
+            <summary>
+            Interface that defines eating behaviors.
+            </summary>
+        </member>
+        <member name="M:Animals.IEatBehavior.Eat(Foods.IEater,Foods.Food)">
+            <summary>
+            Method to eat.
+            </summary>
+            <param name="eater">Object that is eating.</param>
+            <param name="food">Food being eaten.</param>
+        </member>
+        <member name="T:Animals.ClimbProcess">
+            <summary>
+            List of climbing process.
+            </summary>
+        </member>
+        <member name="T:Animals.HoverProcess">
+            <summary>
+            List of hovering process.
+            </summary>
+        </member>
+        <member name="T:Animals.MoveBehaviorType">
+            <summary>
+            List of move behavior types.
+            </summary>
+        </member>
+        <member name="T:Animals.AnimalFactory">
+            <summary>
+            The class which is used to represent an animal factory.
+            </summary>
+        </member>
+        <member name="M:Animals.AnimalFactory.CreateAnimal(Animals.AnimalType,System.String,System.Int32,System.Double,Reproducers.Gender)">
+            <summary>
+            Method to created an animal.
+            </summary>
+            <param name="type">Animal type.</param>
+            <param name="name">Animal name.</param>
+            <param name="age">Animal age.</param>
+            <param name="weight">Animal weight.</param>
+            <param name="gender">Animal gender.</param>
+            <returns>Animal created.</returns>
+        </member>
+        <member name="T:Animals.Chimpanzee">
+            <summary>
+            The class which is used to represent a chimpanzee.
+            </summary>
+        </member>
+        <member name="M:Animals.Chimpanzee.#ctor(System.String,System.Int32,System.Double,Reproducers.Gender)">
+            <summary>
+            Initializes a new instance of the chimpanzee class.
+            </summary>
+            <param name="name">Chimpanzee's name.</param>
+            <param name="age">Chimpanzee's age.</param>
+            <param name="weight">Chimpanzee's weight.</param>
+            <param name="gender">Chimpanzee's gender.</param>
+        </member>
+        <member name="T:Animals.Dingo">
+            <summary>
+            The class which is used to represent a dingo.
+            </summary>
+        </member>
+        <member name="M:Animals.Dingo.#ctor(System.String,System.Int32,System.Double,Reproducers.Gender)">
+            <summary>
+            Initializes a new instance of the Dingo class.
+            </summary>
+            <param name="name">The name of the Dingo.</param>
+            <param name="age">The age of the Dingo.</param>
+            <param name="weight">The weight of the Dingo (in pounds).</param>
+            <param name="gender">The gender of the Dingo.</param>
+        </member>
+        <member name="T:Animals.Eagle">
+            <summary>
+            The class which is used to represent a Eagle.
+            </summary>
+        </member>
+        <member name="M:Animals.Eagle.#ctor(System.String,System.Int32,System.Double,Reproducers.Gender)">
+            <summary>
+            Initializes a new instance of the Eagle class.
+            </summary>
+            <param name="name">Eagle's name.</param>
+            <param name="age">Eagle's age.</param>
+            <param name="weight">Eagle's weight.</param>
+            <param name="gender">Eagle's gender.</param>
+        </member>
+        <member name="T:Animals.Hummingbird">
+            <summary>
+            The class which is used to represent a hummingbird.
+            </summary>
+        </member>
+        <member name="M:Animals.Hummingbird.#ctor(System.String,System.Int32,System.Double,Reproducers.Gender)">
+            <summary>
+            Initializes a new instance of the Hummingbird class.
+            </summary>
+            <param name="name">The name of the hummingbird.</param>
+            <param name="age">The age of the hummingbird.</param>
+            <param name="weight">The weight of the hummingbird (in pounds).</param>
+            <param name="gender">The gender of the hummingbird.</param>
+        </member>
+        <member name="P:Animals.Hummingbird.DisplaySize">
+            <summary>
+            Gets a value of the hummingbird display size.
+            </summary>
+        </member>
+        <member name="T:Animals.Ostrich">
+            <summary>
+            The class which is used to represent a ostrich.
+            </summary>
+        </member>
+        <member name="M:Animals.Ostrich.#ctor(System.String,System.Int32,System.Double,Reproducers.Gender)">
+            <summary>
+            Initializes a new instance of the ostrich class.
+            </summary>
+            <param name="name">Ostrich's name.</param>
+            <param name="age">Ostrich's age.</param>
+            <param name="weight">Ostrich's weight.</param>
+            <param name="gender">Ostrich's gender.</param>
+        </member>
+        <member name="P:Animals.Ostrich.DisplaySize">
+            <summary>
+            Gets a value of the Ostrich display size.
+            </summary>
+        </member>
+        <member name="T:Animals.Shark">
+            <summary>
+            The class which is used to represent a Shark.
+            </summary>
+        </member>
+        <member name="M:Animals.Shark.#ctor(System.String,System.Int32,System.Double,Reproducers.Gender)">
+            <summary>
+            Initializes a new instance of the Shark class.
+            </summary>
+            <param name="name">Shark's name.</param>
+            <param name="age">Shark's age.</param>
+            <param name="weight">Shark's weight.</param>
+            <param name="gender">Shark's gender.</param>
+        </member>
+        <member name="P:Animals.Shark.DisplaySize">
+            <summary>
+            Gets a value of the sharks display size.
+            </summary>
+        </member>
+        <member name="T:Animals.Squirrel">
+            <summary>
+            The class which is used to represent a squirrel.
+            </summary>
+        </member>
+        <member name="M:Animals.Squirrel.#ctor(System.String,System.Int32,System.Double,Reproducers.Gender)">
+            <summary>
+            Initializes a new instance of the squirrel class.
+            </summary>
+            <param name="name">Squirrel's name.</param>
+            <param name="age">Squirrel's age.</param>
+            <param name="weight">Squirrel's weight.</param>
+            <param name="gender">Squirrel's gender.</param>
+        </member>
+        <member name="T:Animals.AnimalType">
+            <summary>
+            List of animal types.
+            </summary>
+        </member>
+        <member name="T:Animals.MoveBehaviorFactory">
+            <summary>
+            Class used to represent move behaviors factory.
+            </summary>
+        </member>
+        <member name="M:Animals.MoveBehaviorFactory.CreateMoveBehavior(Animals.MoveBehaviorType)">
+            <summary>
+            Method to create move behaviors.
+            </summary>
+            <param name="type">Type of move.</param>
+            <returns>Move behavior.</returns>
+        </member>
+        <member name="T:Animals.ClimbBehavior">
+            <summary>
+            The class used to represent climb behavior.
+            </summary>
+        </member>
+        <member name="F:Animals.ClimbBehavior.random">
+            <summary>
+            Randomizes.
+            </summary>
+        </member>
+        <member name="F:Animals.ClimbBehavior.maxHeight">
+            <summary>
+            The max height.
+            </summary>
+        </member>
+        <member name="F:Animals.ClimbBehavior.process">
+            <summary>
+            Climbing process.
+            </summary>
+        </member>
+        <member name="M:Animals.ClimbBehavior.Move(Animals.Animal)">
+            <summary>
+            Method to move for climb behavior.
+            </summary>
+            <param name="animal">Animal being referred too.</param>
+        </member>
+        <member name="M:Animals.ClimbBehavior.NextProcess(Animals.Animal)">
+            <summary>
+            Method to get to the next process.
+            </summary>
+            <param name="animal">Animal being referred to.</param>
+        </member>
+        <member name="T:Animals.HoverBehavior">
+            <summary>
+            The class used to represent hovering behavior.
+            </summary>
+        </member>
+        <member name="F:Animals.HoverBehavior.random">
+            <summary>
+            Randomizes.
+            </summary>
+        </member>
+        <member name="F:Animals.HoverBehavior.process">
+            <summary>
+            The hovering process.
+            </summary>
+        </member>
+        <member name="F:Animals.HoverBehavior.stepCount">
+            <summary>
+            Counts steps.
+            </summary>
+        </member>
+        <member name="M:Animals.HoverBehavior.Move(Animals.Animal)">
+            <summary>
+            Method to move for the hover behavior.
+            </summary>
+            <param name="animal">Animal being referred to.</param>
+        </member>
+        <member name="M:Animals.HoverBehavior.NextProcess(Animals.Animal)">
+            <summary>
+            Method to  process next move decision for animal.
+            </summary>
+            <param name="animal">Animal being referred to.</param>
+        </member>
+        <member name="T:Animals.GiveBirthBehavior">
+            <summary>
+            The class which is giving birth behaviors.
+            </summary>
+        </member>
+        <member name="M:Animals.GiveBirthBehavior.Reproduce(Animals.Animal,Animals.Animal)">
+            <summary>
+            Method to reproduce.
+            </summary>
+            <param name="mother">The mother.</param>
+            <param name="baby">The baby.</param>
+            <returns>A baby.</returns>
+        </member>
+        <member name="M:Animals.GiveBirthBehavior.FeedNewborn(Foods.IEater,Animals.Animal)">
+            <summary>
+            Feeds a baby eater.
+            </summary>
+            <param name="newborn">The baby.</param>
+            <param name="mother">The eater to feed.</param>
+        </member>
+        <member name="T:Animals.IHatchable">
+            <summary>
+            The interface which is used to define the role of something that is hatchable.
+            </summary>
+        </member>
+        <member name="M:Animals.IHatchable.Hatch">
+            <summary>
+            Hatches from its egg.
+            </summary>
+        </member>
+        <member name="T:Animals.IReproduceBehavior">
+            <summary>
+            Interface to reproducing behaviors.
+            </summary>
+        </member>
+        <member name="M:Animals.IReproduceBehavior.Reproduce(Animals.Animal,Animals.Animal)">
+            <summary>
+            Method to reproduce.
+            </summary>
+            <param name="mother">The mother.</param>
+            <param name="baby">The baby.</param>
+            <returns>Baby.</returns>
+        </member>
+        <member name="T:Animals.LayEggBehavior">
+            <summary>
+            The class which is used to represent laying egg behavior.
+            </summary>
+        </member>
+        <member name="M:Animals.LayEggBehavior.Reproduce(Animals.Animal,Animals.Animal)">
+            <summary>
+            Method to reproduce.
+            </summary>
+            <param name="mother">The mother.</param>
+            <param name="baby">The baby.</param>
+            <returns>A baby.</returns>
+        </member>
+        <member name="M:Animals.LayEggBehavior.HatchEgg(Animals.IHatchable)">
+            <summary>
+            Method to hatch eggs.
+            </summary>
+            <param name="egg">Eggs that .</param>
+        </member>
+        <member name="M:Animals.LayEggBehavior.LayEgg(Animals.Animal,Animals.Animal)">
+            <summary>
+            Method to lay egg.
+            </summary>
+            <param name="mother">The mother.</param>
+            <param name="baby">The baby.</param>
+        </member>
+        <member name="T:Animals.IMoveBehavior">
+            <summary>
+            The interface which is used to define the role moving behaviors.
+            </summary>
+        </member>
+        <member name="M:Animals.IMoveBehavior.Move(Animals.Animal)">
+            <summary>
+            Method for animals to move.
+            </summary>
+            <param name="animal">Animal being referred to.</param>
+        </member>
+        <member name="T:Animals.IMover">
+            <summary>
+            The interface which is used to define the role of a mover.
+            </summary>
+        </member>
+        <member name="M:Animals.IMover.Move">
+            <summary>
+            Moves itself.
+            </summary>
+        </member>
+        <member name="T:Animals.Mammal">
+            <summary>
+            The class which is used to represent a mammal.
+            </summary>
+        </member>
+        <member name="M:Animals.Mammal.#ctor(System.String,System.Int32,System.Double,Reproducers.Gender)">
+            <summary>
+            Initializes a new instance of the Mammal class.
+            </summary>
+            <param name="name">The name of the mammal.</param>
+            <param name="age">The age of the mammal.</param>
+            <param name="weight">The weight of the mammal (in pounds).</param>
+            <param name="gender">The gender of the mammal.</param>
+        </member>
+        <member name="P:Animals.Mammal.WeightGainPercentage">
+            <summary>
+            Gets the percentage of weight gained for each pound of food eaten.
+            </summary>
+        </member>
+        <member name="T:Animals.Platypus">
+            <summary>
+            The class which is used to represent a platypus.
+            </summary>
+        </member>
+        <member name="M:Animals.Platypus.#ctor(System.String,System.Int32,System.Double,Reproducers.Gender)">
+            <summary>
+            Initializes a new instance of the Platypus class.
+            </summary>
+            <param name="name">The name of the Platypus.</param>
+            <param name="age">The age of the Platypus.</param>
+            <param name="weight">The weight of the Platypus (in pounds).</param>
+            <param name="gender">The gender of the Platypus.</param>
+        </member>
+        <member name="P:Animals.Platypus.DisplaySize">
+            <summary>
+            Gets a value of the platypus display size.
+            </summary>
+        </member>
+        <member name="M:Animals.Platypus.Hatch">
+            <summary>
+            Hatches the animal.
+            </summary>
+        </member>
+        <member name="T:Animals.Kangaroo">
+            <summary>
+            The class which is used to represent a kangaroo.
+            </summary>
+        </member>
+        <member name="M:Animals.Kangaroo.#ctor(System.String,System.Int32,System.Double,Reproducers.Gender)">
+            <summary>
+            Initializes a new instance of the kangaroo class.
+            </summary>
+            <param name="name">Kangaroo's name.</param>
+            <param name="age">Kangaroo's age.</param>
+            <param name="weight">Kangaroo's weight.</param>
+            <param name="gender">Kangaroo's gender.</param>
+        </member>
+        <member name="T:Animals.FlyBehavior">
+            <summary>
+            The class for flying behavior.
+            </summary>
+        </member>
+        <member name="M:Animals.FlyBehavior.Move(Animals.Animal)">
+            <summary>
+            Moves by flying.
+            </summary>
+            <param name="animal">Animal being referred to.</param>
+        </member>
+        <member name="T:Animals.MoveHelper">
+            <summary>
+            The class which is used to represent help for moving.
+            </summary>
+        </member>
+        <member name="M:Animals.MoveHelper.MoveHorizontally(Animals.Animal,System.Int32)">
+            <summary>
+            Method to move horizontally.
+            </summary>
+            <param name="animal">Animal being referred to.</param>
+            <param name="moveDistance">The move distance.</param>
+        </member>
+        <member name="M:Animals.MoveHelper.MoveVertically(Animals.Animal,System.Int32)">
+            <summary>
+            Metho to move vertically.
+            </summary>
+            <param name="animal">Animal being referred to.</param>
+            <param name="moveDistance">Distance moved.</param>
+        </member>
+        <member name="T:Animals.NoMoveBehavior">
+            <summary>
+            The class which is used to represent non moving behaviors.
+            </summary>
+        </member>
+        <member name="M:Animals.NoMoveBehavior.Move(Animals.Animal)">
+            <summary>
+            Move method of the animals that are non-moving.
+            </summary>
+            <param name="animal">Animal being referred to.</param>
+        </member>
+        <member name="T:Animals.PaceBehavior">
+            <summary>
+            Method for pacing behavior.
+            </summary>
+        </member>
+        <member name="M:Animals.PaceBehavior.Move(Animals.Animal)">
+            <summary>
+            Method to Move by pacing.
+            </summary>
+            <param name="animal">Animal being referred to.</param>
+        </member>
+        <member name="T:Animals.SwimBehavior">
+            <summary>
+            Method for swimming behavior.
+            </summary>
+        </member>
+        <member name="M:Animals.SwimBehavior.Move(Animals.Animal)">
+            <summary>
+            Method to move by swimming.
+            </summary>
+            <param name="animal">Anial being referred to.</param>
+        </member>
+        <member name="T:Animals.ShowAffectionBehavior">
+            <summary>
+            The class which is used to represent a affectionate behavior while eating.
+            </summary>
+        </member>
+        <member name="M:Animals.ShowAffectionBehavior.Eat(Foods.IEater,Foods.Food)">
+            <summary>
+            Method for animal to eat.
+            </summary>
+            <param name="eater">Object eating.</param>
+            <param name="food">Food being eaten.</param>
+        </member>
+        <member name="M:Animals.ShowAffectionBehavior.ShowAffection">
+            <summary>
+            Method for animal to show affection.
+            </summary>
+        </member>
+    </members>
+</doc>
